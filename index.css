@@ -12,3 +12,16 @@ body {
   justify-content: center;
   background-color: #121212; /* Added a dark background for context */
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    padding: 10px; /* Adds some padding */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: #000; /* Darker background for very small screens */
+  }
+}
