@@ -1,0 +1,8 @@
+{
+  "name": "Áudio ao Vivo",
+  "description": "Experimente um chat de voz em tempo real com visuais 3D que reagem à sua conversa, dando vida à interação com IA.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}

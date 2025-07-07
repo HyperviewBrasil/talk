@@ -1,0 +1,14 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* To prevent scrollbars if component is exactly 100vh/vw */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212; /* Added a dark background for context */
+}
